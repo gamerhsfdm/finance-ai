@@ -1,6 +1,6 @@
 # 💸 finance.ai — Dashboard Financeiro
 
-![Preview](./f6f72f8a-a874-4737-9241-0b633959f7fb.png)
+![Preview](/dashboard)
 
 ## 📌 Visão Geral
 
