@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💸 finance.ai — Dashboard Financeiro
 
-## Getting Started
+![Preview](./f6f72f8a-a874-4737-9241-0b633959f7fb.png)
 
-First, run the development server:
+## 📌 Visão Geral
+
+O **finance.ai** é uma aplicação web desenvolvida para ajudar usuários a acompanhar suas finanças pessoais de forma clara e visual. A interface moderna e escura torna a experiência mais agradável, enquanto gráficos e resumos ajudam na tomada de decisões financeiras.
+
+---
+
+## ✨ Funcionalidades
+
+- ✅ **Resumo Financeiro**
+  - Saldo total
+  - Valor investido
+  - Receita e despesas acumuladas
+- 📊 **Gráfico de Pizza**
+  - Visão percentual da distribuição entre receitas, despesas e investimentos
+- 📈 **Gastos por Categoria**
+  - Gráfico com categorias como Alimentação, Entretenimento, Saúde e Educação
+- 📅 **Últimas Transações**
+  - Lista com detalhes das transações mais recentes, com data e valor
+- ➕ **Adicionar Transação**
+  - Botão para adicionar novas entradas ou saídas
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- `React.js`
+- `TypeScript` (opcional)
+- `TailwindCSS` ou `Styled Components`
+- `Chart.js` ou `Recharts` para os gráficos
+- `Firebase` ou `LocalStorage` para persistência (dependendo da sua implementação)
+
+---
+
+## 📂 Estrutura do Projeto (Exemplo)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+finance.ai/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── services/
+│   └── App.tsx
+├── package.json
+└── README.md
